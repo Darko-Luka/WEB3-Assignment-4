@@ -1,8 +1,8 @@
 import { describe, it, test, expect, beforeEach, jest } from '@jest/globals'
-import { createHand, createInitialDeck} from '../../__test__/utils/test_adapter'
+import { createHand, createInitialDeck} from '../utils/test_adapter'
 import { canPlayAny, draw, Hand, play, topOfDiscard } from '../../src/model/hand'
 import { deterministicShuffle as deterministicShuffler, noShuffle, shuffleBuilder, successiveShufflers } from '../utils/shuffling'
-import { is } from '../../__test__/utils/predicates'
+import { is } from '../utils/predicates'
 import { standardShuffler } from '../../src/utils/random_utils'
 
 describe("Playing a card", () => {

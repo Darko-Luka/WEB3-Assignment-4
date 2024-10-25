@@ -1,5 +1,5 @@
 import { describe, it, test, expect } from '@jest/globals'
-import { createHand} from '../../__test__/utils/test_adapter'
+import { createHand} from '../utils/test_adapter'
 import type { Hand } from '../../src/model/hand'
 import { canPlay as canPlayUncurry, 
          catchUnoFailure as catchUnoUncurry, 
